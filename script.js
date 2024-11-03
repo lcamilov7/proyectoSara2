@@ -52,7 +52,10 @@ const messages = [
   "Te amo más que a Itachi",
   "Te amo más que al ajiaco de tu mamá",
   "Te amo más que a los días que puedo quedarme en tu casa.",
-  "Te amo más que las ampollas"
+  "Te amo más que las ampollas",
+  "Te amo como pimienta a las rosquitas",
+  "Te amo como Olivia al pollo",
+  "Te amo como un ratón al queso"
 ];
 
 function random(array) {

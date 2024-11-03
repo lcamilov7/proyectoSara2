@@ -40,7 +40,7 @@ body {
   font-weight: 400;
   font-style: normal;
   background: linear-gradient(-45deg, #4158D0, #e560dc, #ffb374, #ef5f5f, #d840b6);
-  background-size: 10000% 10000%;
+  background-size: 100000% 100000%;
   animation: bg 40s ease infinite;
 }
 
@@ -177,7 +177,7 @@ button {
   border-radius: 10px; /* Bordes redondeados */
   padding: 10px 15px; /* Espaciado interno */
   max-width: 150px; /* Ancho máximo */
-  width: 150px;
+  width: 100px;
   max-height: 500px;
   margin: 10px; /* Margen */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
