@@ -6,9 +6,9 @@
 
 .slider .slide-track {
   display: flex;
-  animation: scroll 40s linear infinite;
-  -webkit-animation: scroll 40s linear infinite;
-  width: calc(400px * 14); /* 400px es el tamaño de la imaagen y 10 es el numero de imagenes x 2 */
+  animation: scroll 80s linear infinite;
+  -webkit-animation: scroll 80s linear infinite;
+  width: calc(400px * 48); /* 400px es el tamaño de la imaagen y 10 es el numero de imagenes x 2 */
 }
 
 .slider .slide {
@@ -28,8 +28,8 @@
   }
 
   100% {
-    -webkit-transform: translateX(calc(-400px * 7));
-    transform: translateX(calc(-400px * 7));
+    -webkit-transform: translateX(calc(-400px * 24));
+    transform: translateX(calc(-400px * 24));
   }
 }
 
