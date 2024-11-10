@@ -65,11 +65,12 @@ body {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 
 .card {
+  position: relative;
   height: 300px; /* Altura fija */
   background-color: #f1f1f1; /* Color de fondo de la card */
   border-radius: 8px; /* Bordes redondeados */
@@ -199,5 +200,23 @@ button {
   cursor: grab;
 }
 
-
+.redeemed {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4); /* Fondo negro con 40% de opacidad */
+  backdrop-filter: blur(10px); 
+  color: red;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 10%;
+  right: 60%;
+  transform: rotate(-15deg);
+  border: 3px solid red;
+  border-radius: 15px;
+  height:  30px !important;
+  width: 90px !important;
+  font-weight: 900;
+}
 
